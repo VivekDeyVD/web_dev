@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #table,th,td,tr{
+            border-collapse: collapse;
+            border: 2px solid black;
+            width: 50%;
+            height: 50%;
+        }
+        #path{
+         
+        }
+    </style>
+</head>
+<body>
+   <table id="table">
+     <tr>
+        <th rowspan="3">DAY</th>
+        <th colspan="4">SEMINAR</th>
+     </tr>
+     <tr>
+        <th colspan="2">schedule</th>
+        <th colspan="2">topic</th>
+     </tr>
+     <tr>
+        <th>Begin</th>
+        <th>End</th>
+     </tr>
+     <tr>
+        <th rowspan="2">Monday</th>
+        <th rowspan="2">8:00 am</th>
+        <th rowspan="2">5:00 am</th>
+        <td >Introduction to XML</td>
+        <tr><td>Validity</td></tr>
+     </tr>
+     <tr>
+        <th rowspan="3">
+            Tuesday
+        </th>
+        <th>8:00 am</th>
+        <th>11:00 am</th>
+        <td rowspan="2" id="path">Xpath</td>
+     </tr>
+     <tr>
+      <th>
+         11:00 am
+      </th>
+      <th>
+         2:00 pm
+      </th>
+     </tr>
+     <tr>
+      <th>2:00 PM</th>
+      <th>5:00 PM</th>
+      <th>XLS transformation</th>
+     </tr>
+     <tr><th>Wednesday</th>
+      <th>8:00am</th>
+      <th>12:00 pm</th>
+      <th>XLS formatting object</th>
+   </tr>
+   </table> 
+</body>
+</html>
