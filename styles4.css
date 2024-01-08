@@ -1,0 +1,13 @@
+.container{
+    border: 1px solid green;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: aqua;
+}
