@@ -42,10 +42,15 @@ z-index: -1;
 }
 .foreground{
     position: absolute;
-height:50%;
-width: 50%;
-right: 100%;
+
+right: 65%;
+top: 40%; 
+object-fit:cover ;
 
 
 z-index: -1;
+}
+
+h1{
+    font-size: xx-large;
 }
