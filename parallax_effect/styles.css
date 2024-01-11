@@ -118,5 +118,5 @@ section{
 #thankyou{
     text-align: center;
     color: red;
-    text-shadow: 1px 1px 5px red;
+    text-shadow: 1px 1px 5px rgb(4, 0, 255);
 }
