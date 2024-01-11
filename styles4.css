@@ -3,6 +3,8 @@
     height: 400px;
     width: 500px;
     display: flex;
+   
+    /* justify-content: space-evenly; */
     justify-content: space-evenly;
 
 }
@@ -10,4 +12,10 @@
     border: 1px solid black;
     border-collapse: collapse;
     background-color: aqua;
+    height: 50px;
+    width: 50px;
+}
+
+#box1{
+    order: 1;
 }
