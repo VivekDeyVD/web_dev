@@ -3,48 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .box{
-            background-color: blue;
-            border: 1px solid black;
-            height:200px;
-            width: 200px;
-        }
-
-        #left{
-            margin: 0px;
-        }
-        #right{
-            position: relative;
-            left: 170px;
-            bottom:35px;
-        }
-        #center{
-            /* background-color: brown; */
-            text-align: center;
-            position: relative;
-            top: 20px;
-        }
-        #bottom_left{
-            position: relative;
-            top: 75px;
-
-        }
-        #bottom_right{
-            position: relative;
-            left: 170px;
-            top: 40px;
-        }
-    </style>
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="hw2.css">
 </head>
 <body>
-    <div class="box">
-        <p id="left">Hello</p>
-        <p id="right">hello</p>
-        <p id="center">hello</p>
-        <p id="bottom_left">hello</p>
-        <p id="bottom_right">hello</p>
+    <div class="wrapper">
+       <div class="container" id="header">Header </div>
+       <div class="container " id="sidebar"> Side bar</div>
+       <div class="container" id="content">Content</div>
+       <div class="container" id="footer">footer</div>
     </div>
 </body>
 </html>
