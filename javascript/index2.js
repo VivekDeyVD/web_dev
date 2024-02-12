@@ -1,25 +1,43 @@
-// // console.log('chaliye suru karte hai');
-// // let rectangle ={
-// //     length:1,
-// //     breadth:2,
+// // 
+// let src ={
+//     a:10,
+//     b:20,
+//     c:30
+// };
 
-// //     draw:function(){
-// //         console.log('draw');
-// //     }
-// // };
-
-// function createRectangle (){
-//     return rectangle={
-//         length:1,
-//         breadth:2,
-    
-//         draw:function(){
-//             console.log('draw');
-//         }
-
-//     };
-
-
-
+// let dest={};
+// for(let key in src){
+//     dest[key]=src[key];
 // }
-// let rectangleObj=rectangle();
+
+// console.log(dest);
+
+// src.a++;
+// console.log(dest);
+// console.log(src);
+
+
+//clone using assign
+
+//  let src = {
+// a:10,
+// b:20,
+// c:30
+
+//  };
+
+//  let dest=Object.assign({},src);
+//  console.log(dest);
+
+//  src.a++;
+//  console.log(src);
+//  console.log(dest);
+
+ //clone using spread
+
+ let src= {a:10,b:20,c:30};
+ let dest={...src}
+ console.log(dest);
+ src.a++;
+ console.log(src);
+ console.log(dest);
