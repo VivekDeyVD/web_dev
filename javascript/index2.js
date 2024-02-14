@@ -1,43 +1,16 @@
-// // 
-// let src ={
-//     a:10,
-//     b:20,
-//     c:30
-// };
+// 
 
-// let dest={};
-// for(let key in src){
-//     dest[key]=src[key];
-// }
+let num=[1,2,3,4,5];
+console.log(num);
 
-// console.log(dest);
+// num[0]=9;
+// console.log(num)
+num.push(9);
+console.log(num);
 
-// src.a++;
-// console.log(dest);
-// console.log(src);
+num.unshift(8);
 
+console.log(num);
 
-//clone using assign
-
-//  let src = {
-// a:10,
-// b:20,
-// c:30
-
-//  };
-
-//  let dest=Object.assign({},src);
-//  console.log(dest);
-
-//  src.a++;
-//  console.log(src);
-//  console.log(dest);
-
- //clone using spread
-
- let src= {a:10,b:20,c:30};
- let dest={...src}
- console.log(dest);
- src.a++;
- console.log(src);
- console.log(dest);
+num.splice(2,0,4,6,0);
+console.log(num);
